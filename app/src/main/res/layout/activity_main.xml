@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/playURLSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playURL"
+        android:text="Play sound from URL" />
+
+    <Button
+        android:id="@+id/playURLlSoundWithTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playURLWithTimer"
+        android:text="Play sound from URL with timer" />
+
+    <Button
+        android:id="@+id/stopURLSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopURL"
+        android:text="Stop sound from URL" />
+
+    <Button
+        android:id="@+id/playLocalSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playLocal"
+        android:text="Play sound from local file" />
+
+    <Button
+        android:id="@+id/playLocalSoundWithTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playLocalWithTimer"
+        android:text="Play sound from local file with timer" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopLocal"
+        android:text="Stop sound from local file" />
+
+
+
+</LinearLayout>

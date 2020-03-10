@@ -1,0 +1,2 @@
+rootProject.name='soundhandler'
+include ':app'
